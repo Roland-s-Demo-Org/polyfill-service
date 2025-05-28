@@ -476,10 +476,10 @@ pub(crate) fn privacy() -> String {
         main class="container" {
             p {
                 "This Privacy Policy applies to the "
-                a href="https://polyfill.io/"{"Polyfill.io"}
-                " website (“<em>Site</em>”) and the public instance of the Polyfill Service made available by us, as described on the Site (“<em>Service</em>”). This Site and the Service are referred to together as “"
-                a href="https://polyfill.io/"{em{"Polyfill.io"}}
-                "”."
+                "Polyfill"
+                " website ("<em>Site</em>") and the public instance of the Polyfill Service made available by us, as described on the Site ("<em>Service</em>"). This Site and the Service are referred to together as ""
+                em{"Polyfill"}
+                ""."
             }
             p {"We collect and use personal information in different ways for the Site and the Service. This Privacy Policy sets out details of these different ways in which we collect and use information."}
             h2 {
@@ -557,7 +557,6 @@ pub(crate) fn privacy() -> String {
 
             p {
                 "Any changes we may make to this privacy policy will be posted on this page. If changes are significant, we may choose to indicate clearly on the "
-                a href="https://polyfill.io" {"Polyfill.io"}
                 " home page that the policy has been updated."
             }
         }
