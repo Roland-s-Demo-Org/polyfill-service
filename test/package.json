@@ -6,8 +6,12 @@
         "test:integration": "mocha integration/*.test.js integration/**/*.test.js --recursive --check-leaks --timeout 60000 --exit --bail"
     },
     "dependencies": {
-        "axios": "^1.6.0",
+        "axios": "^1.12.2",
         "mocha": "^10.2.0",
         "start-server-and-test": "^2.0.1"
+    },
+    "overrides": {
+        "follow-redirects@<=1.15.6": "1.15.6",
+        "form-data@<=4.0.4": "4.0.4"
     }
 }
