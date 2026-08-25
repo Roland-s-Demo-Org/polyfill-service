@@ -32,7 +32,6 @@ sub vcl_hash {
 		call breadcrumb_hash;
 	}
 
-	# We are not adding req.http.host to the hash because we want https://cdn.polyfill.io and https://polyfill.io to be a single object in the cache.
 	# As well as any other domains we support such as polyfills.io and cdn.polyfills.io
 	# set req.hash += req.http.host;
 	set req.hash += req.url;
