@@ -12,12 +12,6 @@ sub vcl_recv {
 	if (req.http.Orig-URL ~ "^/robots.txt") {
 		error 906;
 	}
-	if (req.url ~ "^/https://cdn.polyfill.io") {
-		error 907;
-	}
-	if (req.url ~ "^/https://polyfill.io") {
-		error 907;
-	}
 	if (req.url ~ "^/pages/fixedData") {
 		error 907;
 	}

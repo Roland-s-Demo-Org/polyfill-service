@@ -279,7 +279,6 @@ pub(crate) fn home(stats: Option<Stats>, days: u32) -> String {
                     output {
                         pre {
                             code id="polyfill-bundle-url" {
-                                "https://polyfill.io/v3/polyfill.min.js"
                             }
                         }
                     }
@@ -381,11 +380,11 @@ pub(crate) fn terms() -> String {
         main class="container" {
             h2 {"Who we are and how to contact us"}
             p {
-                a href="https://polyfill.io/" target="_self" rel="nofollow noopener"{"Polyfill.io"}
-                " is operated as a community service by the Polyfill.io maintainers (“we”, “us”)."
+                "Polyfill is operated as a community service by the Polyfill maintainers ("we", "us")."
             }
 
             h2 {"By using Polyfill.io you agree to our terms"}
+
             p{"These terms apply to “"em{"Polyfill.io"}"”, which means:"}
             ul {
                 li {"the Polyfill.io website (“"em{"Site"}"”); and/or"}
@@ -476,10 +475,10 @@ pub(crate) fn privacy() -> String {
         main class="container" {
             p {
                 "This Privacy Policy applies to the "
-                a href="https://polyfill.io/"{"Polyfill.io"}
-                " website (“<em>Site</em>”) and the public instance of the Polyfill Service made available by us, as described on the Site (“<em>Service</em>”). This Site and the Service are referred to together as “"
-                a href="https://polyfill.io/"{em{"Polyfill.io"}}
-                "”."
+                "Polyfill"
+                " website ("<em>Site</em>") and the public instance of the Polyfill Service made available by us, as described on the Site ("<em>Service</em>"). This Site and the Service are referred to together as ""
+                em{"Polyfill"}
+                ""."
             }
             p {"We collect and use personal information in different ways for the Site and the Service. This Privacy Policy sets out details of these different ways in which we collect and use information."}
             h2 {
@@ -557,7 +556,7 @@ pub(crate) fn privacy() -> String {
 
             p {
                 "Any changes we may make to this privacy policy will be posted on this page. If changes are significant, we may choose to indicate clearly on the "
-                a href="https://polyfill.io" {"Polyfill.io"}
+                "Polyfill"
                 " home page that the policy has been updated."
             }
         }
